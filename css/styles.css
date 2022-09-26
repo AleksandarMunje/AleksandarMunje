@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  font-size: 562.5%;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  padding-bottom: 10px;
+  font-weight: normal;
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #A084CA 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+}
+
+a {
+  color:#6F38C5;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #B1B2FF;
+}
+
+.dance-teacher {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.choreographer {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.top-container {
+  position: relative;
+  padding-top: 150px;
+  background-color: #A084CA;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #A084CA;
+  padding: 50px 0 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  top: 500px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 450px;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.skill-row {
+  text-align: left;
+  margin: 100px auto;
+  width: 50%;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.contact-message {
+  width: 29%;
+  margin: 40px auto 60px;
+}
+.copyright {
+  color: #6F38C5;
+}
+.btn {
+  background: #9c34d9;
+  background-image: -webkit-linear-gradient(top, #9c34d9, #864bad);
+  background-image: -moz-linear-gradient(top, #9c34d9, #864bad);
+  background-image: -ms-linear-gradient(top, #9c34d9, #864bad);
+  background-image: -o-linear-gradient(top, #9c34d9, #864bad);
+  background-image: linear-gradient(to bottom, #9c34d9, #864bad);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #6213d1;
+  background-image: -webkit-linear-gradient(top, #6213d1, #ca2be6);
+  background-image: -moz-linear-gradient(top, #6213d1, #ca2be6);
+  background-image: -ms-linear-gradient(top, #6213d1, #ca2be6);
+  background-image: -o-linear-gradient(top, #6213d1, #ca2be6);
+  background-image: linear-gradient(to bottom, #6213d1, #ca2be6);
+  text-decoration: none;
+}
